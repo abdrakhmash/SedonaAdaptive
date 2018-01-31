@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sedona</title>
+        <link rel="stylesheet" href="sedona.css">
+    </head>
+    
+    <body>
+        
+        <header class="header">
+            <div><img src=# alt="Логотип Седоны"></div>
+            <nav class="navigation-panel">
+                <ul>
+                    <li>ГЛАВНАЯ</li>
+                    <li>ФОТО И ВИДЕО</li>
+                    <li>ФОРМА ОТЗЫВА</li>
+                    <li>HTML ACADEMY</li>
+                </ul>
+                <div class=></div>
+            </nav>
+        </header>
+        
+        
+        <div class="contents-container">
+            
+            <section class="banner">
+                <div class="banner__Sedona"></div>
+            </section>
+            
+            <section class="feedback">
+                <form class="feedback-form">
+                    <fieldset class="guest-contact-data">
+                        <p>ПРЕДСТАВЬТЕСЬ, ПОЖАЛУЙСТА: </p>
+                        <label>Имя: <input type="text" name="first-name" placeholder="Петр"></label>
+                        <label>Фамилия: <input type="text" name="last-name" placeholder="Иванов"></label>
+                        <label>Отчество:<input type="text" name="patronym" placeholder="Александрович"> </label>
+                        
+                        <p>Контактная информация:</p>
+                        <label>Контактный телефон: <input type="tel" name="guest-phone" placeholder="Введите номер"></label>
+                        <label>Электронная почта: <input type="email" name="guest-email" placeholder="Введите e-mail"></label>
+                    </fieldset>
+                    <fieldset class="feedback-form__feedback-descript">
+                        <p>Ваше общее впечатление: </p>
+                        <label><input type="radio" name="impression" value="positive">Скорее, положительное</label>
+                        <label><input type="radio" name="impression" value="negative">Скорее, отрицательное</label>
+                        <label><input type="radio" name="impression" value="not-sure">Затрудняюсь ответить</label>
+                        
+                        <p>Посещенные достопримечательности: </p>
+                        <label><input type="checkbox" name="visited-sights" value="devil-bridge">Мост Дьявола</label>
+                        <label><input type="checkbox" name="visited-sights" value="slide-park">Слайд-парк</label>
+                        <label><input type="checkbox" name="visited-sights" value="mountain">Гора-колокол</label>
+                        <label><input type="checkbox" name="visited-sights" value="red-rocks">Красные скалы</label>
+                        
+                        <p>Опишите свои эмоции:</p>
+                        <textarea name="guest-emotions" placeholder="Опишите подробно все свои восторги"></textarea>
+                    </fieldset>
+                    <input class="button" type="submit" name="feedback-form-btn" value="Отправить отзыв">
+                </form>
+            </section>
+         
+            
+        </div>  
+        
+        
+        <footer class="footer">
+            
+            <div class="footer__hashtag-visit-sedona">#VISITSEDONA</div>
+            <div class="social-icons">
+                <a class="social-icons__link">TWITTER</a>
+                <a class="social-icons__link">FACEBOOK</a>
+                <a class="social-icons__link">YOUTUBE</a>   
+            </div>
+            <div class="footer__site-creator">РАЗРАБОТАНО</div>
+            
+        </footer>  
+    </body>
+</html>
